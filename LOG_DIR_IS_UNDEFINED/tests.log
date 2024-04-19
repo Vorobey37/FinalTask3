@@ -1,0 +1,168 @@
+203  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+211  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+211  [main] INFO  org.example.BookingServiceTest - Создаем экземпляр сервиса
+219  [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+320  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+330  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+330  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1137 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+1190 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+326  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+336  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+336  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1048 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+1051 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+1079 [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+1102 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+325  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+334  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+334  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1033 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+1036 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+1066 [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+1074 [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+1093 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+166  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+176  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+176  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+898  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+901  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+930  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+936  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+955  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+956  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+956  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+956  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+957  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+968  [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+164  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+174  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+174  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+892  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+895  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+925  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+958  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+958  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+958  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+959  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+959  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+966  [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+178  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+188  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+188  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+901  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+905  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+934  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+941  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+961  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+961  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+962  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра LocalDateTime
+962  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+963  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+964  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+968  [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+325  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+333  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+333  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1034 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+1034 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+1037 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции создания книги
+1068 [main] DEBUG org.example.BookingServiceTest - Проверяем действие создания книги
+1075 [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+1097 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+326  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+334  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+335  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1054 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+1055 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+1059 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции создания книги
+1088 [main] DEBUG org.example.BookingServiceTest - Проверяем действие создания книги
+1096 [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+1116 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+318  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+328  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+328  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1023 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+1023 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+1026 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+1053 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции создания книги
+1077 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+319  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+328  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+328  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1028 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+1028 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+1031 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки книги
+1057 [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки книги
+1077 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+318  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+327  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+327  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1029 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+1029 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+1032 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки книги
+1061 [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки книги
+1068 [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+1113 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+317  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+326  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+326  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1024 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+1025 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+1028 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки книги
+1056 [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки книги
+1062 [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+1080 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+319  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+328  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+329  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+1030 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+1030 [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+1033 [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки книги
+1059 [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки книги
+1065 [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+1084 [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
+169  [main] INFO  org.example.BookingServiceTest - Стартует тестирование!
+178  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+179  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+892  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+893  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+896  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+925  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+931  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+953  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+953  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+953  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+953  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+954  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки даты
+954  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки даты
+955  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+957  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+957  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+958  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+958  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+958  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции создания книги
+958  [main] DEBUG org.example.BookingServiceTest - Проверяем действие создания книги
+959  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+961  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+961  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+961  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+961  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+962  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции создания книги
+962  [main] DEBUG org.example.BookingServiceTest - Проверяем действие создания книги
+963  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+964  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+965  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+965  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+965  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+965  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки книги
+966  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки книги
+966  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+968  [main] INFO  org.example.BookingServiceTest - Запускаем тест
+968  [main] DEBUG org.example.BookingServiceTest - Создаем мок класса BookingService
+968  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра Time
+969  [main] DEBUG org.example.BookingServiceTest - Создаем тестовые данные для параметра userId
+969  [main] DEBUG org.example.BookingServiceTest - Задаем поведение BookingService для операции проверки книги
+971  [main] DEBUG org.example.BookingServiceTest - Проверяем действие проверки книги
+973  [main] DEBUG org.example.BookingServiceTest - Проверяем выполнение действия
+977  [main] INFO  org.example.BookingServiceTest - Тестирование закончено!
