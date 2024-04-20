@@ -15,7 +15,8 @@ public class BookingServiceTest {
 
     private static final Logger logger
             = LoggerFactory.getLogger(BookingServiceTest.class);
-    private BookingService bookingService;
+    private BookingService mokBookingService;
+    private BookingService spyBookingService;
     private LocalDateTime time1;
     private LocalDateTime time2;
     private LocalDateTime time3;
@@ -30,7 +31,9 @@ public class BookingServiceTest {
     public void setUp(){
         logger.info("Запускаем тест");
         logger.debug("Создаем мок класса BookingService");
-        bookingService = Mockito.mock(BookingService.class);
+        mokBookingService = Mockito.mock(BookingService.class);
+        logger.debug("Создаем spy класса BookingService");
+        spyBookingService = Mockito.spy(new BookingService());
         logger.debug("Создаем тестовые данные для параметра Time");
         time1 = LocalDateTime.of(2019, Month.MAY, 15, 12, 15);
         time2 = LocalDateTime.of(2020, Month.MAY, 15, 12, 15);
@@ -41,62 +44,64 @@ public class BookingServiceTest {
 
     @Test
     public void testPositiveCheckTimeInBD(){
-        logger.debug("Задаем поведение BookingService для операции проверки даты");
-        when(bookingService.checkTimeInBD(time1, time2)).thenReturn(true);
+        logger.debug("Задаем поведение mokBookingService для операции проверки даты");
+        when(mokBookingService.checkTimeInBD(time1, time2)).thenReturn(true);
         logger.debug("Проверяем действие проверки даты");
-        Assertions.assertTrue(bookingService.checkTimeInBD(time1, time2));
+        Assertions.assertTrue(mokBookingService.checkTimeInBD(time1, time2));
         logger.debug("Проверяем выполнение действия");
-        verify(bookingService).checkTimeInBD(time1, time2);
+        verify(mokBookingService).checkTimeInBD(time1, time2);
     }
 
     @Test
     public void testNegativeCheckTimeInBD(){
-        logger.debug("Задаем поведение BookingService для операции проверки даты");
-        when(bookingService.checkTimeInBD(time3, time2)).thenReturn(false);
+        logger.debug("Задаем поведение mokBookingService для операции проверки даты");
+        when(mokBookingService.checkTimeInBD(time3, time2)).thenReturn(false);
         logger.debug("Проверяем действие проверки даты");
-        Assertions.assertFalse(bookingService.checkTimeInBD(time3, time2));
+        Assertions.assertFalse(mokBookingService.checkTimeInBD(time3, time2));
         logger.debug("Проверяем выполнение действия");
-        verify(bookingService).checkTimeInBD(time3, time2);
+        verify(mokBookingService).checkTimeInBD(time3, time2);
     }
 
     @Test
     public void testPositiveCreateBook(){
-        logger.debug("Задаем поведение BookingService для операции создания книги");
-        when(bookingService.createBook(userId, time1, time2)).thenReturn(true);
+        logger.debug("Задаем поведение mokBookingService для операции создания книги");
+        when(mokBookingService.createBook(userId, time1, time2)).thenReturn(true);
         logger.debug("Проверяем действие создания книги");
-        Assertions.assertTrue(bookingService.createBook(userId, time1, time2));
+        Assertions.assertTrue(mokBookingService.createBook(userId, time1, time2));
         logger.debug("Проверяем выполнение действия");
-        verify(bookingService).createBook(userId, time1, time2);
+        verify(mokBookingService).createBook(userId, time1, time2);
     }
 
     @Test
     public void testNegativeCreateBook(){
-        logger.debug("Задаем поведение BookingService для операции создания книги");
-        when(bookingService.createBook(userId, time3, time2)).thenReturn(false);
+        logger.debug("Задаем поведение mokBookingService для операции создания книги");
+        when(mokBookingService.createBook(userId, time3, time2)).thenReturn(false);
         logger.debug("Проверяем действие создания книги");
-        Assertions.assertFalse(bookingService.createBook(userId, time3, time2));
+        Assertions.assertFalse(mokBookingService.createBook(userId, time3, time2));
         logger.debug("Проверяем выполнение действия");
-        verify(bookingService).createBook(userId, time3, time2);
+        verify(mokBookingService).createBook(userId, time3, time2);
     }
 
     @Test
     public void testPositiveBook() throws CantBookException {
-        logger.debug("Задаем поведение BookingService для операции проверки книги");
-        when(bookingService.book(userId, time1, time2)).thenReturn(true);
+        logger.debug("Задаем поведение spyBookingService для операции проверки даты");
+        when(spyBookingService.checkTimeInBD(time1, time2)).thenReturn(true);
+        logger.debug("Задаем поведение spyBookingService для операции создания книги");
+        when(spyBookingService.createBook(userId,time1,time2)).thenReturn(true);
         logger.debug("Проверяем действие проверки книги");
-        Assertions.assertTrue(bookingService.book(userId, time1, time2));
-        logger.debug("Проверяем выполнение действия");
-        verify(bookingService).book(userId, time1, time2);
+        Assertions.assertTrue(spyBookingService.book(userId, time1, time2));
+
     }
 
     @Test
     public void testNegativeBook() throws CantBookException {
-        logger.debug("Задаем поведение BookingService для операции проверки книги");
-        when(bookingService.book(userId, time3, time2)).thenThrow(new CantBookException());
+        logger.debug("Задаем поведение spyBookingService для операции проверки даты");
+        when(spyBookingService.checkTimeInBD(time3, time2)).thenReturn(false);
+        logger.debug("Задаем поведение spyBookingService для операции создания книги");
+        when(spyBookingService.createBook(userId,time3,time2)).thenReturn(false);
         logger.debug("Проверяем действие проверки книги");
-        Assertions.assertThrows(CantBookException.class, () -> bookingService.book(userId, time3, time2));
-        logger.debug("Проверяем выполнение действия");
-        verify(bookingService).book(userId, time3, time2);
+        Assertions.assertThrows(CantBookException.class, () -> spyBookingService.book(userId, time3, time2));
+
     }
 
     @AfterAll
